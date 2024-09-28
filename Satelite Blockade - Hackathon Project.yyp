@@ -34,7 +34,12 @@
   },
   "name":"Satelite Blockade - Hackathon Project",
   "resources":[
+    {"id":{"name":"Obj_Controller","path":"objects/Obj_Controller/Obj_Controller.yy",},},
+    {"id":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},},
+    {"id":{"name":"Obj_Ring","path":"objects/Obj_Ring/Obj_Ring.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Spr_Explosion","path":"sprites/Spr_Explosion/Spr_Explosion.yy",},},
+    {"id":{"name":"Spr_Ring","path":"sprites/Spr_Ring/Spr_Ring.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
