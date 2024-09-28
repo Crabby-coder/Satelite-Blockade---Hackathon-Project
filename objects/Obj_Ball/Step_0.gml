@@ -43,5 +43,6 @@ else //this directs the ball towards the mouse if it gets stuck in ring
 
 if global.gameOver = true
 {
+	instance_create_layer(x,y,"Explosions",Obj_Explosion);
 	instance_destroy();
 }
