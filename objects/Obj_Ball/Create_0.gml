@@ -12,3 +12,5 @@ dirPossible = 30;
 keepOutOfRing = 2;
 
 originalKeepOutOfRing = keepOutOfRing;
+
+runOutsideRoomOnce = false;

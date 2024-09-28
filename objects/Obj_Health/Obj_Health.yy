@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Ring",
+  "%Name":"Obj_Health",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Ring",
+  "name":"Obj_Health",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Ring",
-    "path":"sprites/Spr_Ring/Spr_Ring.yy",
+    "name":"Spr_Blank",
+    "path":"sprites/Spr_Blank/Spr_Blank.yy",
   },
   "spriteMaskId":null,
   "visible":true,

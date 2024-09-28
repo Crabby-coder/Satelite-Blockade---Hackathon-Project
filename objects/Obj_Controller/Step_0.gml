@@ -18,3 +18,22 @@ if activateTimer == true
 		activateTimer = false;
 	}
 }
+
+global.ballHealth = clamp(global.ballHealth,0,global.ballHealth);
+
+//if ball health = 0
+if global.ballHealth <= 0
+{
+	global.gameOver = true;
+}
+
+if global.gameOverTimer <= 0
+{
+	Reset();
+}
+
+if global.gameOver = true
+{
+	global.gameOverTimer--;
+}
+
