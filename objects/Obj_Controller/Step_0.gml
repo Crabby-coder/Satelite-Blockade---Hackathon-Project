@@ -19,12 +19,20 @@ if activateTimer == true
 	}
 }
 
-global.ballHealth = clamp(global.ballHealth,0,global.ballHealth);
-
 //if ball health = 0
 if global.ballHealth <= 0
 {
-	global.gameOver = true;
+	if runOnce != true
+	{
+		runOnce = true;
+		global.gameOver = true;
+		global.winner = "Satelites Broke The Rocket!";
+		instance_create_layer(Obj_Ring.x, Obj_Ring.y,"GameOverText",Obj_GameOver);
+	}
+}
+else
+{
+	runOnce = false;
 }
 
 if global.gameOverTimer <= 0
