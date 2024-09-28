@@ -7,7 +7,8 @@ speed = 5;
 
 runOnce = false;
 
-dirPossible = 40;
+dirPossible = 30;
 
-keepOutTimer = false;
 keepOutOfRing = 2;
+
+originalKeepOutOfRing = keepOutOfRing;

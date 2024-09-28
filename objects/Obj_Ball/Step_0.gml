@@ -13,25 +13,22 @@ else
 }
 
 //collision w/ Ring
-if keepOutOfRing > 0
+if place_meeting(x,y,Obj_Ring) and keepOutOfRing > 0
 {
-	if place_meeting(x,y,Obj_Ring)
+	keepOutOfRing--;
+	if runOnce != true
 	{
-		if runOnce != true
-		{
-			runOnce = true;
-			direction = direction - (180 + irandom_range(-dirPossible,dirPossible));
-		
-			if keepOutTimer = false
-			{
-			keepOutOfRing--;
-			}
-		
-		}
+		runOnce = true;
+		direction = direction - (180 + irandom_range(-dirPossible,dirPossible));
 	}
-	else
-	{
-		runOnce = false;
-	}
+}
+else if !place_meeting(x,y,Obj_Ring)
+{
+	runOnce = false;
+}
+else //this directs the ball towards the mouse if it gets stuck in ring
+{
+	//keepOutOfRing = originalKeepOutOfRing;
+	direction = point_direction(x,y,Obj_Ring.x,Obj_Ring.y);
 }
 
