@@ -1,3 +1,5 @@
+image_angle = direction - 90;
+
 //Collision w/ Explosions
 if place_meeting(x,y,Obj_Explosion)
 {

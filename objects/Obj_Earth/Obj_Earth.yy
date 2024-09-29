@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Ring",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Earth",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_Ring",
+  "name":"Obj_Earth",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Ring",
-    "path":"sprites/Spr_Ring/Spr_Ring.yy",
+    "name":"Spr_Earth",
+    "path":"sprites/Spr_Earth/Spr_Earth.yy",
   },
   "spriteMaskId":null,
   "visible":true,

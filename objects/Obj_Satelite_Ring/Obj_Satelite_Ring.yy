@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Ring",
+  "%Name":"Obj_Satelite_Ring",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Ring",
+  "name":"Obj_Satelite_Ring",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Ring",
-    "path":"sprites/Spr_Ring/Spr_Ring.yy",
+    "name":"Spr_SateliteRing",
+    "path":"sprites/Spr_SateliteRing/Spr_SateliteRing.yy",
   },
   "spriteMaskId":null,
   "visible":true,
